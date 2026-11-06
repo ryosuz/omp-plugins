@@ -4,7 +4,7 @@
 		"name": "ryosuz"
 	},
 	"metadata": {
-		"description": "Personal omp extensions",
+		"description": "Personal omp plugins",
 		"pluginRoot": "plugins"
 	},
 	"plugins": [
@@ -19,6 +19,12 @@
 			"description": "/wt: bind the new worktree to the cf profile of the source checkout",
 			"version": "0.1.0",
 			"source": "./wt-cf-auth"
+		},
+		{
+			"name": "dev",
+			"description": "Development workflow slash commands (/dev:flow)",
+			"version": "0.1.0",
+			"source": "./dev"
 		}
 	]
 }
