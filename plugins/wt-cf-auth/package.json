@@ -1,0 +1,8 @@
+{
+	"name": "wt-cf-auth",
+	"private": true,
+	"description": "/wt: bind the new worktree to the cf profile of the source checkout",
+	"omp": {
+		"extensions": ["./index.ts"]
+	}
+}

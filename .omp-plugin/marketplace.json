@@ -1,0 +1,24 @@
+{
+	"name": "ryosuz",
+	"owner": {
+		"name": "ryosuz"
+	},
+	"metadata": {
+		"description": "Personal omp extensions",
+		"pluginRoot": "plugins"
+	},
+	"plugins": [
+		{
+			"name": "wt-sibling",
+			"description": "/wt-sibling (/wts): create the worktree next to the repository's main checkout",
+			"version": "0.1.0",
+			"source": "./wt-sibling"
+		},
+		{
+			"name": "wt-cf-auth",
+			"description": "/wt: bind the new worktree to the cf profile of the source checkout",
+			"version": "0.1.0",
+			"source": "./wt-cf-auth"
+		}
+	]
+}

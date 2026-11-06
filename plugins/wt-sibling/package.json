@@ -1,0 +1,8 @@
+{
+	"name": "wt-sibling",
+	"private": true,
+	"description": "/wt-sibling (/wts): create the worktree next to the repository's main checkout",
+	"omp": {
+		"extensions": ["./index.ts"]
+	}
+}
